@@ -157,14 +157,25 @@ h1 {
 h2 {
   font-size: 1.5em;
   font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
-  color: rgb(249, 107, 24);
-  border-top: 2px dotted rgb(141, 165, 22);
-  border-bottom: 2px dotted rgb(141, 165, 22);
+  text-align: center;
+  color: rgb(172, 80, 27);
+  background-color: rgb(226, 200, 200);
+  /* border-top: 2px solid rgb(141, 165, 22); */
+  /* border-bottom: 2px solid rgb(141, 165, 22); */
+  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+  border-radius: 10px; */
   padding-top: 5px;
   padding-bottom: 5px;
   margin: 15px 0 5px 0;
   overflow: hidden;
 }
+
+.nonebcgsdw {
+  background: transparent;
+  box-shadow: none;
+  color: rgb(172, 46, 27);
+}
+
 
 .sidebar {
   width: 30%;
@@ -172,8 +183,8 @@ h2 {
   margin: 10px;
   background-color: rgb(250, 235, 199);
   padding: 10px 20px;
-  border: 1px dotted rgb(252, 101, 18);
-  border-top: 20px solid rgb(252, 101, 18);
+  border: 1px dotted rgb(172, 46, 27);
+  border-top: 20px solid rgb(172, 46, 27);
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
 }
@@ -186,4 +197,24 @@ h2 {
 
 .fig {
   text-align: center;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  color: rgb(228, 127, 94);
+  font-style: italic;
+}
+
+.note {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: rgb(92, 63, 53);
+
+}
+
+h1+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  color: rgb(133, 161, 16);
 }
